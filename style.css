@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first-page{
+    background-image: url(image1.png);
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: capitalize;
+
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    letter-spacing: 8px;
+    text-align: center;
+    
+}
+.bgs1,.bgs2{
+    background-color: rgb(89, 88, 88);
+    display: inline;
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 9px;
+}
+.section-one,.section-Two,.section-Three{
+    background-color: rgb(32, 31, 31);
+    color: aliceblue;
+    padding: 23px;
+    padding-left: 45px;
+    padding-right: 45px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.heading{
+    margin: 0px 6px 2px 2px;
+    padding: 0px 0px 8px 0px;
+    letter-spacing: 3px;
+}
+.second-page{
+    background-image: url(image2.png);
+    min-height: 50vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-transform: capitalize;
+
+}
+.Third-page{
+    background-image: url(image3.png);
+    min-height: 70vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+
+    /* this is used for Parallax Website */
+    background-attachment: fixed;
+}
+.bgs3{
+    background-color: rgb(89, 88, 88);
+    opacity: 0.8;
+    display: inline;
+    color: white;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 9px;
+}
+.last-page{
+    background-image: url(image1.png);
+    min-height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-transform: capitalize;
+    /* this is used for Parallax Website */
+    background-attachment: fixed;
+}
